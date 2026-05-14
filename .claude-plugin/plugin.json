@@ -1,0 +1,9 @@
+{
+  "name": "claude-sdd",
+  "description": "Spec Driven Development plugin for Claude Code. Guides projects through requirements, technical planning, and task-by-task implementation with human supervision.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Adrian Fernandez"
+  },
+  "repository": "https://github.com/adferte/claude-sdd"
+}
