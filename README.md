@@ -16,8 +16,19 @@ Spec Driven Development plugin for Claude Code. Guides projects through requirem
 
 ## Installation
 
-```bash
-/plugin install https://github.com/adferte/claude-sdd
+**Step 1 — Add the marketplace:**
+```
+/plugin marketplace add adferte/claude-sdd
+```
+
+**Step 2 — Install the plugin:**
+```
+/plugin install claude-sdd@claude-sdd
+```
+
+**Step 3 — Reload plugins:**
+```
+/reload-plugins
 ```
 
 ---
@@ -33,10 +44,12 @@ Add a minimal `CLAUDE.md` to your project root:
 
 This project requires the claude-sdd plugin.
 
-If not installed:
-/plugin install https://github.com/adferte/claude-sdd
+If not installed, run in order:
+1. /plugin marketplace add adferte/claude-sdd
+2. /plugin install claude-sdd@claude-sdd
+3. /reload-plugins
 
-Once installed:
+Once installed, start with:
 /claude-sdd:init
 ```
 
