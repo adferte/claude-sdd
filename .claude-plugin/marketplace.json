@@ -9,7 +9,10 @@
     {
       "name": "claude-sdd",
       "description": "Spec Driven Development plugin for Claude Code. Guides projects through requirements, technical planning, and task-by-task implementation with human supervision.",
-      "source": "."
+      "source": {
+        "source": "github",
+        "repo": "adferte/claude-sdd"
+      }
     }
   ]
 }
